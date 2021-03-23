@@ -33,13 +33,30 @@ greetings = "hello world!" # string
 # print(len(white_space.strip())) # doesnt show empty spaces
 
 # counts the number of times the word is mentioned in a text
-Example_text = "here's Some texts with lot's of text"
-print(Example_text.count("text"))
-print(Example_text)
-print(Example_text.upper())
-print(Example_text.lower())
-print(Example_text.capitalize()) # capitalized the first letter of the string
-print(Example_text.replace("with", ",")) # replaces word with a new specified one
+# Example_text = "here's Some texts with lot's of text"
+# print(Example_text.count("text"))
+# print(Example_text)
+# print(Example_text.upper())
+# print(Example_text.lower())
+# print(Example_text.capitalize()) # capitalized the first letter of the string
+# print(Example_text.replace("with", ",")) # replaces word with a new specified one
+
+# Concatenation and Casting
+first_name = "Ula"
+last_name = "Walker"
+age = 99 #int
+# print(first_name + " " + last_name)
+# print(first_name + " " + last_name + " " + str(age)) # we have to change int to string, to cast string into int
+# print(type(int(age)))
+
+# F - string is and amazing magical formatting f
+print(f"Your First name is {first_name} and your last name is {last_name} and you are {age} years old.")
+
+
+
+
+
+
 
 
 
